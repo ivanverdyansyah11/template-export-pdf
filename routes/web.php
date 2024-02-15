@@ -45,4 +45,5 @@ Route::controller(HomeController::class)->group(function() {
     Route::get('/exportHibahSamsat', 'exportHibahSamsat')->name('exportHibahSamsat');
     Route::get('/exportSuratPembelianSolar', 'exportSuratPembelianSolar')->name('exportSuratPembelianSolar');
     Route::get('/exportSuratKeteranganDomisili', 'exportSuratKeteranganDomisili')->name('exportSuratKeteranganDomisili');
+    Route::get('/exportPendaftaran', 'exportPendaftaran')->name('exportPendaftaran');
 });
