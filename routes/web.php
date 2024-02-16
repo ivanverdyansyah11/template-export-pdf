@@ -50,4 +50,5 @@ Route::controller(HomeController::class)->group(function() {
     Route::get('/exportSuratKuasa', 'exportSuratKuasa')->name('exportSuratKuasa');
     Route::get('/exportSuratPembagianWaris', 'exportSuratPembagianWaris')->name('exportSuratPembagianWaris');
     Route::get('/exportSilsilahWaris', 'exportSilsilahWaris')->name('exportSilsilahWaris');
+    Route::get('/exportKeteranganAhliWaris2', 'exportKeteranganAhliWaris2')->name('exportKeteranganAhliWaris2');
 });
