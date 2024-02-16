@@ -170,4 +170,9 @@ class HomeController extends Controller
         $pdf = PDF::loadView('export-surat-kuasa.export')->setPaper('a4', 'portrait');
         return $pdf->stream();
     }
+
+    public function exportSuratPembagianWaris() {
+        $pdf = PDF::loadView('export-surat-pembagian-waris.export')->setPaper('a4', 'portrait');
+        return $pdf->stream();
+    }
 }
