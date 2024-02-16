@@ -58,6 +58,7 @@
     <br><br>
 
     <a href="{{ route('exportSuratKuasa') }}" target="_blank" style="margin: 0 24px;">Print Surat Kuasa</a>
+    <a href="{{ route('exportSuratPembagianWaris') }}" target="_blank" style="margin: 0 24px;">Print Surat Pembagian Warisan</a>
 
 
 </body>
