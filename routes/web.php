@@ -46,4 +46,6 @@ Route::controller(HomeController::class)->group(function() {
     Route::get('/exportSuratPembelianSolar', 'exportSuratPembelianSolar')->name('exportSuratPembelianSolar');
     Route::get('/exportSuratKeteranganDomisili', 'exportSuratKeteranganDomisili')->name('exportSuratKeteranganDomisili');
     Route::get('/exportPendaftaran', 'exportPendaftaran')->name('exportPendaftaran');
+    Route::get('/exportKeteranganAhliWaris', 'exportKeteranganAhliWaris')->name('exportKeteranganAhliWaris');
+    Route::get('/exportSuratKuasa', 'exportSuratKuasa')->name('exportSuratKuasa');
 });

@@ -44,14 +44,21 @@
     <a href="{{ route('exportSKPenghasilanOrtu') }}" target="_blank" style="margin: 0 24px;">Print Penghasilan Ortu</a>
     <a href="{{ route('exportSilsilah') }}" target="_blank" style="margin: 0 24px;">Print Silsilah</a>
     <a href="{{ route('exportSKMeninggal') }}" target="_blank" style="margin: 0 24px;">Print Meninggal</a>
-    
+
     <br>
     <br>
-    
+
     <a href="{{ route('exportSuratIzinOrangTua') }}" target="_blank" style="margin: 0 24px;">Print Surat Izin Orang Tua</a>
     <a href="{{ route('exportHibahSamsat') }}" target="_blank" style="margin: 0 24px;">Print Hibah Samsat</a>
     <a href="{{ route('exportSuratPembelianSolar') }}" target="_blank" style="margin: 0 24px;">Print Surat Pembelian Solar</a>
     <a href="{{ route('exportSuratKeteranganDomisili') }}" target="_blank" style="margin: 0 24px;">Print Surat Keterangan Domisili</a>
     <a href="{{ route('exportPendaftaran') }}" target="_blank" style="margin: 0 24px;">Print Pendaftaran</a>
+    <a href="{{ route('exportKeteranganAhliWaris') }}" target="_blank" style="margin: 0 24px;">Print Keterangan Ahli Waris</a>
+
+    <br><br>
+
+    <a href="{{ route('exportSuratKuasa') }}" target="_blank" style="margin: 0 24px;">Print Surat Kuasa</a>
+
+
 </body>
 </html>
