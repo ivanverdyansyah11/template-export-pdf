@@ -61,6 +61,7 @@
     <a href="{{ route('exportSuratPembagianWaris') }}" target="_blank" style="margin: 0 24px;">Print Surat Pembagian Warisan</a>
     <a href="{{ route('exportSilsilahWaris') }}" target="_blank" style="margin: 0 24px;">Print Silsilah Waris</a>
     <a href="{{ route('exportKeteranganAhliWaris2') }}" target="_blank" style="margin: 0 24px;">Print Keterangan Ahli Waris 2</a>
+    <a href="{{ route('exportSuratTebangPohon') }}" target="_blank" style="margin: 0 24px;">Print Surat Tebang Pohon</a>
 
 
 </body>
